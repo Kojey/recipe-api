@@ -1,5 +1,5 @@
 FROM python:3.9-alpine
-MAINTAINER Kojey
+LABEL maintainer="Kojey"
 # prevent python to disply on the console
 ENV PYTHONUNBEFFERED 1
 # requirements for the python environment
